@@ -1,0 +1,18 @@
+{
+    "verbose": true,
+    "watch": [
+        "src",
+        "config"
+    ],
+    "ext": "scss, ts, tsx, js",
+    "ignore": [
+        "dist",
+        "node_modules",
+        "public",
+        ".git"
+    ],
+    "delay": "2",
+    "execMap": {
+        "ts": "ts-node"
+    }
+}
